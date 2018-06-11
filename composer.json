@@ -1,0 +1,16 @@
+{
+  "name": "arch/php-internal-api-client",
+  "type": "library",
+  "require": {
+    "guzzlehttp/guzzle": "^6.3",
+    "illuminate/http": "^5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "PdInternalApi\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  }
+}
